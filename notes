@@ -25,3 +25,5 @@ MAKING A SIMPLE REPL (read-execute-print loop)
 - Sqlite starts a read-execute-print loop when you start it from the command line
 
 
+MAKINIG A SIMPLE SQL COMPILER AND VIRTUAL MACHINE
+- sqlite is a SQL compiler that parses a string and outputs an internal representation called bytecode. This bytecode is passed to the virtual machine, which executes it.

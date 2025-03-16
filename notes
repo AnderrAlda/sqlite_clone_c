@@ -1,0 +1,27 @@
+- I will be writing an sqlLite clone instead of a mySQL or PostgreSQL clone because it is more simple.
+
+- The entire database will be stored in a single file.
+
+
+- A query goes through a chain of components in order to retrieve or modify data. The front-end consists of the:
+
+	- tokenizer
+	- parser
+	- code generator
+
+- The input to the front-end is a SQL query. the output is sqlite virtual machine bytecode (essentially a compiled program that can operate on the database).
+
+The back-end consists of the:
+
+	- virtual machine
+	- B-tree
+	- pager
+	- os interface
+
+
+
+
+MAKING A SIMPLE REPL (read-execute-print loop)
+- Sqlite starts a read-execute-print loop when you start it from the command line
+
+
